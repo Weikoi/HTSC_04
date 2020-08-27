@@ -23,9 +23,9 @@ class Coffee(Beverage):
 
     @staticmethod
     def get_base_price(base_type):
-        if base_type == "latte":
+        if base_type == "1":  # latte
             return 10
-        elif base_type == "mocha":
+        elif base_type == "2":  # mocha
             return 11
-        elif base_type == "flat_white":
+        elif base_type == "3":  # white
             return 12
