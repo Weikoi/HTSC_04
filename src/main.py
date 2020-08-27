@@ -33,20 +33,6 @@ def get_order():
 
 
 if __name__ == '__main__':
-    # coffee_spec_dict1 = {"base_type": "latte",
-    #                      "cup": "big",
-    #                      "temperature": "hot",
-    #                      "milk": "soy_milk",
-    #                      "original_syrup": "0",
-    #                      "vanilla_syrup": "0",
-    #                      "acorn_syrup": "0",
-    #                      "caramel_syrup": "0",
-    #                      "raspberry_syrup": "2",
-    #                      "mocha_syrup": "0",
-    #                      "mocha_sauce": "0",
-    #                      "caramel_sauce": "0"
-    #                      }
-    # coffee1 = Coffee(coffee_spec_dict1)
     order = Order()
     print("请问您要购买几杯咖啡？")
     num = int(input())
